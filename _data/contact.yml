@@ -1,20 +1,15 @@
 #  The contact options.
 
--
-  type: github
-  icon: 'fab fa-github-alt'
--
-  type: twitter
-  icon: 'fab fa-twitter'
--
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
--
-  type: rss
-  icon: 'fas fa-rss'
+- type: github
+  icon: class="fab fa-github-alt"
+- type: naverBlog
+  icon: rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/codehousepig/assets/img/favicons/N.ico" type="image/x-icon"
+- type: email
+  icon: class="fas fa-envelope"
+  noblank: true # open link in current tab
+- type: rss
+  icon: class="fas fa-rss"
   noblank: true
-
 # Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon
